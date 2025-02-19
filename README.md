@@ -7,8 +7,6 @@ Kameleoon Java WeatherSDK is an estimated introduction task for Kameloon (An Eur
 This is an example of executing a request to Openweathermap API using WeatherSDK
 
 ```java
-package me.artemiyulyanov;
-
 import me.artemiyulyanov.web.endpoints.weather.WeatherData;
 
 public class WeatherSdkApplication {
