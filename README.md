@@ -1,7 +1,5 @@
 # Kameleoon
-
-## Stack
-Maven, Jackson, JUnit, Mockito, Java IO
+**Stack:** Maven, Jackson, JUnit, Mockito, Java IO
 
 ## Introduction
 Kameleoon Java WeatherSDK is an estimated introduction task for Kameloon (An Europe-based company specified in A/B testing and personalization) to implement easily accessing to Openweathermap API
