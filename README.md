@@ -18,3 +18,7 @@ public class WeatherSdkApplication {
     }
 }
 ```
+## Endpoints
+
+This SDK has a single endpoint ```java WeatherSdk::getWeather``` that returns ```java WeatherData``` object with the further data:
+[WeatherData.java](src/main/java/me/artemiyulyanov/web/endpoints/weather/WeatherData.java)
