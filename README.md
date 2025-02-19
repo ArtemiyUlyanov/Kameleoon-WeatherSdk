@@ -1,4 +1,4 @@
-# Kameleoon
+# Kameleoon-WeatherSdk
 **Stack:** Maven, Jackson, JUnit, Mockito, Java IO
 
 ## Introduction
