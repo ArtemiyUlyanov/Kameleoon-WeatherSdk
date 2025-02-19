@@ -26,3 +26,7 @@ This SDK has a single endpoint ```WeatherSdk::getWeather``` that returns ```Weat
 This SDK is supposed to work in two of available modes: ```WeatherSdkMode.ON_DEMAND``` and ```WeatherSdkMode.POLLING```
 - **ON_DEMAND**: The SDK fetches to the API every time the user refers to an endpoint
 - **POLLING**: The SDK keeps a cache data that updates every 10 minutes and referring to an endpoint processes only when it is necessary (when the data gets unfreshed)
+
+## Unit tests
+This SDK has some of Unit tests:
+[Tests folder](src/test/java/me/artemiyulyanov)
