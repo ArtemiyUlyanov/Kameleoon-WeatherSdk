@@ -23,6 +23,6 @@ This SDK has a single endpoint ```WeatherSdk::getWeather``` that returns ```Weat
 [WeatherData.java](src/main/java/me/artemiyulyanov/web/endpoints/weather/WeatherData.java)
 
 ## Modes
-This SDK is supposed to work in two of available modes: ```ON_DEMAND``` and ```POLLING```
+This SDK is supposed to work in two of available modes: ```WeatherSdkMode.ON_DEMAND``` and ```WeatherSdkMode.POLLING```
 - **ON_DEMAND**: The SDK fetches to the API every time the user refers to an endpoint
 - **POLLING**: The SDK keeps a cache data that updates every 10 minutes and referring to an endpoint processes only when it is necessary (when the data gets unfreshed)
