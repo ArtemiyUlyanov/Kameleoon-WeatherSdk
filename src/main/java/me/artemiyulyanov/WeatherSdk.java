@@ -45,11 +45,4 @@ public class WeatherSdk {
                 .city(city)
                 .build();
     }
-
-    public static void main(String[] args) throws WebSdkExpection {
-        WeatherSdk weatherSdk = new WeatherSdk("9fdb183cfcd8ef2c23b47ec6a1267dce", WeatherSdkMode.POLLING);
-
-        WeatherData data = weatherSdk.getWeather("Tokyo");
-        WeatherData data1 = weatherSdk.getWeather("Tokyo");
-    }
 }
